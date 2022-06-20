@@ -1,0 +1,12 @@
+{
+  "name": "Julia",
+  "surname": "Podolko",
+  "favorite_subject": [
+    "Math",
+    "Art"
+  ],
+  "address": {
+    "street": "Pine",
+    "house": 12
+  }
+}
