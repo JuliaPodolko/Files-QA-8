@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65e1afbd-b215-4c0b-9402-74d6a592fc21" name="Changes" comment="added classWork" />
+    <list default="true" id="65e1afbd-b215-4c0b-9402-74d6a592fc21" name="Changes" comment="added classWork">
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/HomeWorkParsingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/files/file_example.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +26,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Files-QA-8" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -44,19 +59,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Julia\IdeaProjects\Files-QA-8\src\test\resources\files" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="guru.qa.domain" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.FilesParsingTest.parseJsonTypeTest">
-    <configuration name="FilesParsingTest.parseCsvTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HomeWorkParsingTest">
+    <configuration name="FilesParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -69,30 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;guru.qa.FilesParsingTest.parseCsvTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FilesParsingTest.parseJsonCommonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;guru.qa.FilesParsingTest.parseJsonCommonTest&quot;" />
+            <option value="&quot;guru.qa.FilesParsingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -148,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FilesParsingTest.parseZipTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HomeWorkParsingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -161,7 +156,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;guru.qa.FilesParsingTest.parseZipTest&quot;" />
+            <option value="&quot;guru.qa.HomeWorkParsingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomeWorkParsingTest.parseZipTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;guru.qa.HomeWorkParsingTest.parseZipTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FilesParsingTest.parseJsonTypeTest" />
-        <item itemvalue="Gradle.FilesParsingTest.parseJsonCommonTest" />
-        <item itemvalue="Gradle.FilesParsingTest.parseZipTest" />
-        <item itemvalue="Gradle.FilesParsingTest.parseCsvTest" />
+        <item itemvalue="Gradle.HomeWorkParsingTest" />
+        <item itemvalue="Gradle.FilesParsingTest" />
+        <item itemvalue="Gradle.HomeWorkParsingTest.parseZipTest" />
         <item itemvalue="Gradle.FilesParsingTest.parseXlsTest" />
+        <item itemvalue="Gradle.FilesParsingTest.parseJsonTypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655758210559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added classWork">
+      <created>1655758262107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655758262107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
